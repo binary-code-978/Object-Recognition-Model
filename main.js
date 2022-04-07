@@ -33,3 +33,7 @@ function gotResult(error, results) {
         document.getElementById("result_object_accuracy").innerHTML = results[0].confidence.toFixed(3) * 100 + "%";
     }
 }
+
+function modelLoaded() {
+    console.log("modelLoaded");
+}
